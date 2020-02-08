@@ -30,3 +30,25 @@ body{
   background: var(--mainGrey);
   color: var(--mainBlack);
 }
+
+.main-link{
+  display: inline-block;
+  color: var(--mainWhite);
+  background: var(--primaryColor);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  padding: 0.5rem 1rem;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  transition: var(--mainTransition);
+}
+
+.main-link:hover{
+  text-decoration: none;
+  background: var(--darkGrey);
+  color: var(--primaryColor);
+  outline: 2px solid var(--darkGrey);
+}
+.cart-icon{
+  cursor: pointer;
+}
